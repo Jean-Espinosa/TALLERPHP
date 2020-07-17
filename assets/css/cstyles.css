@@ -1,0 +1,69 @@
+@font-face{
+  	font-family: Product Sans;
+  	src: url(../font.ttf);
+  	font-weight: normal;
+}
+
+body{
+	font-family: 'Product Sans', sans-serif !important;
+}
+
+
+.login{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background-color:#fff;
+}
+
+.centro{
+    margin: 0 auto !important;
+}
+
+.cimg{
+    height: 80px;
+    width: 80px;
+}
+
+.group-icon{
+    background-color: #d8d8d89e !important;
+}
+
+.group-icon i{
+    padding: 5px;
+    border-right: rgba(0, 0, 0, 0.247) 2px solid;
+}
+
+.group-icon input{
+    border: 0;
+    background-color: #d8d8d89e !important;
+}
+
+.group-icon input:focus{
+    border: 0!important;
+}
+
+.row{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.head a button p{
+   display: none!important;
+   margin: 0 7px;
+   transition: .3s all;
+}
+
+.head a:hover button p{
+    display: inline-block!important;
+}
+
+.bg-blue{
+    background-color: #007bff1c;
+}
+
+
+
+
+
